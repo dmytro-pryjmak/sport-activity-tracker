@@ -1,0 +1,7 @@
+com.work.activitytracker.feature.list
+string cd_add_record
+string cd_delete_record
+string empty_subtitle
+string empty_title
+string list_screen_title
+string wide_panel_hint

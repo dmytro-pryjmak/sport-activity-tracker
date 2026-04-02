@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="cd_add_record">Add record</string>
+    <string name="cd_delete_record">Delete record</string>
+    <string name="empty_subtitle">Tap + to log your first activity</string>
+    <string name="empty_title">No records yet</string>
+    <string name="list_screen_title">My Records</string>
+    <string name="wide_panel_hint">Select a record to preview\nor tap + to add a new one.</string>
+</resources>

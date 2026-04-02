@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "728249605584",
+    "project_id": "sportactivitytracker-61635",
+    "storage_bucket": "sportactivitytracker-61635.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:728249605584:android:5266d91833e63ae06e2dd5",
+        "android_client_info": {
+          "package_name": "com.work.activitytracker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxCCSfbOjgk78-CCxwWnfXuBPA10rz_CU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,15 @@
+com.work.activitytracker.feature.add
+string add_screen_title
+string btn_save
+string cd_decrease
+string cd_increase
+string cd_navigate_back
+string duration_format
+string field_duration
+string field_location
+string field_location_placeholder
+string field_name
+string field_name_placeholder
+string field_save_to
+string storage_local
+string storage_remote

@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \":*)",
+      "Bash(./gradlew :core:ui:recordPaparazziDebug)",
+      "Bash(./gradlew :core:ui:testDebugUnitTest)",
+      "Bash(./gradlew :feature:list:testDebugUnitTest)",
+      "Bash(/usr/libexec/java_home -V 2>&1)",
+      "Bash(./gradlew :core:ui:recordPaparazziDebug --info)",
+      "Bash(./gradlew :core:ui:tasks --group=paparazzi)"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="add_screen_title">New Record</string>
+    <string name="btn_save">Save record</string>
+    <string name="cd_decrease">Decrease duration</string>
+    <string name="cd_increase">Increase duration</string>
+    <string name="cd_navigate_back">Navigate back</string>
+    <string name="duration_format">%d min</string>
+    <string name="field_duration">Duration</string>
+    <string name="field_location">Location</string>
+    <string name="field_location_placeholder">e.g. Stromovka Park</string>
+    <string name="field_name">Activity name</string>
+    <string name="field_name_placeholder">e.g. Morning run</string>
+    <string name="field_save_to">Save to</string>
+    <string name="storage_local">Local</string>
+    <string name="storage_remote">Remote</string>
+</resources>
