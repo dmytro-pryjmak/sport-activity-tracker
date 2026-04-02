@@ -52,6 +52,20 @@ class ListScreenTest {
     }
 
     @Test
+    fun listScreen_with_records_landscape() {
+        paparazzi.snapshot(deviceConfig = DeviceConfig.PIXEL_6.copy(screenWidth = 2400, screenHeight = 1080, xdpi = 411, ydpi = 411)) {
+            SportTrackerTheme {
+                Surface {
+                    ListContent(
+                        uiState = ListUiState(records = sampleRecords, filter = RecordsFilter.ALL),
+                        onAction = {},
+                    )
+                }
+            }
+        }
+    }
+
+    @Test
     fun listScreen_with_records_dark() {
         paparazzi.snapshot {
             SportTrackerTheme(darkTheme = true) {

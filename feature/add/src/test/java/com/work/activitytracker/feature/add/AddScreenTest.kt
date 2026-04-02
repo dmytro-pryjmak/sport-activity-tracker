@@ -25,6 +25,17 @@ class AddScreenTest {
     }
 
     @Test
+    fun addScreen_empty_landscape() {
+        paparazzi.snapshot(deviceConfig = DeviceConfig.PIXEL_6.copy(screenWidth = 2400, screenHeight = 1080, xdpi = 411, ydpi = 411)) {
+            SportTrackerTheme {
+                Surface {
+                    AddContent(uiState = AddUiState(), onAction = {})
+                }
+            }
+        }
+    }
+
+    @Test
     fun addScreen_empty_dark() {
         paparazzi.snapshot {
             SportTrackerTheme(darkTheme = true) {

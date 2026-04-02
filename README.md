@@ -16,6 +16,12 @@ An Android app for recording and tracking sport activities, built as a demonstra
 |---|---|---|---|
 | ![add](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_empty.png) | ![add dark](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_empty_dark.png) | ![remote](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_remote_selected.png) | ![errors](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_validation_errors.png) |
 
+**Horizontal**
+
+| List Landscape | Add Landscape |
+|---|---|
+| ![list landscape](feature/list/src/test/snapshots/images/com.work.activitytracker.feature.list_ListScreenTest_listScreen_with_records_landscape.png) | ![add landscape](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_empty_landscape.png) |
+
 > Generated with Paparazzi. Regenerate: `./gradlew :feature:list:recordPaparazziDebug :feature:add:recordPaparazziDebug`
 
 ## Features
