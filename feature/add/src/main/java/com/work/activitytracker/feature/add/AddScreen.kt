@@ -116,7 +116,7 @@ private fun AddTopBar(onNavigateBack: () -> Unit) {
 }
 
 @Composable
-private fun AddContent(
+internal fun AddContent(
     uiState: AddUiState,
     onAction: (AddUiAction) -> Unit,
     modifier: Modifier = Modifier,

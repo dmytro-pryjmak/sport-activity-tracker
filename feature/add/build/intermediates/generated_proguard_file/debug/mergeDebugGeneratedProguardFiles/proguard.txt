@@ -1,2 +1,0 @@
--keep,allowobfuscation,allowshrinking class com.work.activitytracker.feature.add.AddViewModel
--keep,allowobfuscation,allowshrinking class com.work.activitytracker.feature.add.AddViewModel

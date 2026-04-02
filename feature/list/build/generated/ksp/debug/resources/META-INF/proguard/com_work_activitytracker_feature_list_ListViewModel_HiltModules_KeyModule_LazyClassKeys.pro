@@ -1,1 +1,0 @@
--keep,allowobfuscation,allowshrinking class com.work.activitytracker.feature.list.ListViewModel

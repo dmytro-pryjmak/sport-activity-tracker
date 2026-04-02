@@ -4,11 +4,19 @@ An Android app for recording and tracking sport activities, built as a demonstra
 
 ## Screenshots
 
-| Local (Light) | Remote (Light) | Local (Dark) | Remote (Dark) |
-|---|---|---|---|
-| ![local](core/ui/src/test/snapshots/images/com.work.activitytracker.core.ui_SportRecordCardTest_sportRecordCard_local.png) | ![remote](core/ui/src/test/snapshots/images/com.work.activitytracker.core.ui_SportRecordCardTest_sportRecordCard_remote.png) | ![local dark](core/ui/src/test/snapshots/images/com.work.activitytracker.core.ui_SportRecordCardTest_sportRecordCard_local_dark.png) | ![remote dark](core/ui/src/test/snapshots/images/com.work.activitytracker.core.ui_SportRecordCardTest_sportRecordCard_remote_dark.png) |
+**List Screen**
 
-> Generated with Paparazzi. Regenerate: `./gradlew :core:ui:recordPaparazziDebug`
+| With Records | With Records (Dark) | Empty | Loading |
+|---|---|---|---|
+| ![list](feature/list/src/test/snapshots/images/com.work.activitytracker.feature.list_ListScreenTest_listScreen_with_records.png) | ![list dark](feature/list/src/test/snapshots/images/com.work.activitytracker.feature.list_ListScreenTest_listScreen_with_records_dark.png) | ![empty](feature/list/src/test/snapshots/images/com.work.activitytracker.feature.list_ListScreenTest_listScreen_empty.png) | ![loading](feature/list/src/test/snapshots/images/com.work.activitytracker.feature.list_ListScreenTest_listScreen_loading.png) |
+
+**Add Screen**
+
+| Default | Dark | Remote Selected | Validation Errors |
+|---|---|---|---|
+| ![add](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_empty.png) | ![add dark](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_empty_dark.png) | ![remote](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_remote_selected.png) | ![errors](feature/add/src/test/snapshots/images/com.work.activitytracker.feature.add_AddScreenTest_addScreen_validation_errors.png) |
+
+> Generated with Paparazzi. Regenerate: `./gradlew :feature:list:recordPaparazziDebug :feature:add:recordPaparazziDebug`
 
 ## Features
 

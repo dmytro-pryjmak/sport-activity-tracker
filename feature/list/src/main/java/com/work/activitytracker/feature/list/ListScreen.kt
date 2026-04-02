@@ -109,7 +109,7 @@ private fun ListTopBar() {
 }
 
 @Composable
-private fun ListContent(
+internal fun ListContent(
     uiState: ListUiState,
     onAction: (ListUiAction) -> Unit,
     modifier: Modifier = Modifier,
