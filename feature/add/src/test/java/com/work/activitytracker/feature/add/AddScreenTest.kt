@@ -1,5 +1,6 @@
 package com.work.activitytracker.feature.add
 
+import androidx.compose.material3.Surface
 import app.cash.paparazzi.DeviceConfig
 import app.cash.paparazzi.Paparazzi
 import com.work.activitytracker.core.domain.model.StorageType
@@ -16,10 +17,9 @@ class AddScreenTest {
     fun addScreen_empty() {
         paparazzi.snapshot {
             SportTrackerTheme {
-                AddContent(
-                    uiState = AddUiState(),
-                    onAction = {},
-                )
+                Surface {
+                    AddContent(uiState = AddUiState(), onAction = {})
+                }
             }
         }
     }
@@ -28,10 +28,9 @@ class AddScreenTest {
     fun addScreen_empty_dark() {
         paparazzi.snapshot {
             SportTrackerTheme(darkTheme = true) {
-                AddContent(
-                    uiState = AddUiState(),
-                    onAction = {},
-                )
+                Surface {
+                    AddContent(uiState = AddUiState(), onAction = {})
+                }
             }
         }
     }
@@ -40,10 +39,9 @@ class AddScreenTest {
     fun addScreen_remote_selected() {
         paparazzi.snapshot {
             SportTrackerTheme {
-                AddContent(
-                    uiState = AddUiState(storageType = StorageType.REMOTE),
-                    onAction = {},
-                )
+                Surface {
+                    AddContent(uiState = AddUiState(storageType = StorageType.REMOTE), onAction = {})
+                }
             }
         }
     }
@@ -52,13 +50,15 @@ class AddScreenTest {
     fun addScreen_validation_errors() {
         paparazzi.snapshot {
             SportTrackerTheme {
-                AddContent(
-                    uiState = AddUiState(
-                        nameError = "Name is required",
-                        locationError = "Location is required",
-                    ),
-                    onAction = {},
-                )
+                Surface {
+                    AddContent(
+                        uiState = AddUiState(
+                            nameError = "Name is required",
+                            locationError = "Location is required",
+                        ),
+                        onAction = {},
+                    )
+                }
             }
         }
     }
