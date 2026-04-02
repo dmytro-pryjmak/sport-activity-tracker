@@ -3,6 +3,7 @@ package com.work.activitytracker.feature.list
 import androidx.compose.material3.Surface
 import app.cash.paparazzi.DeviceConfig
 import app.cash.paparazzi.Paparazzi
+import com.android.resources.ScreenOrientation
 import com.work.activitytracker.core.domain.model.RecordsFilter
 import com.work.activitytracker.core.domain.model.SportRecord
 import com.work.activitytracker.core.domain.model.StorageType
@@ -53,7 +54,13 @@ class ListScreenTest {
 
     @Test
     fun listScreen_with_records_landscape() {
-        paparazzi.snapshot(deviceConfig = DeviceConfig.PIXEL_6.copy(screenWidth = 2400, screenHeight = 1080, xdpi = 411, ydpi = 411)) {
+        paparazzi.unsafeUpdateConfig(
+            deviceConfig = DeviceConfig.PIXEL_6.copy(
+                orientation = ScreenOrientation.LANDSCAPE
+            )
+        )
+
+        paparazzi.snapshot {
             SportTrackerTheme {
                 Surface {
                     ListContent(
